@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="47.005734">
+    <testcase classname="Resolver Test" name="Test Email and Password" time="7.123127">
+        <system-out><![CDATA[Given user is on sample login page..........................................passed
+When email, password and login button is present............................passed
+Then user enters username and password......................................passed
+Then user clicks on signin button...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Resolver Test" name="Test List Items" time="5.010966">
+        <system-out><![CDATA[Given user is on sample login page now......................................passed
+Then user checks there are three values in the listgroup....................passed
+Then user checks second list item's value...................................passed
+And user checks second item's badge value...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Resolver Test" name="Test Options" time="4.329524">
+        <system-out><![CDATA[Given user is on the sample login page......................................passed
+Then user checks default selected value.....................................passed
+And user selects from the list..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Resolver Test" name="Test Buttons" time="4.135468">
+        <system-out><![CDATA[Given user is on login page.................................................passed
+Then user checks if button is enabled.......................................passed
+Then user checks in button is disabled......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Resolver Test" name="Test messages" time="22.351377">
+        <system-out><![CDATA[Given user is on the login page.............................................passed
+Then user waits for the button to be displayed and clicks on it.............passed
+Then user checks if the message is displayed................................passed
+Then user checks if the button is now displayed.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Resolver Test" name="Test cells" time="4.055272">
+        <system-out><![CDATA[Given user is on the login page now.........................................passed
+Then user finds the value of any cell on the grid...........................passed
+Then user finds cell at coordinates.........................................passed
+Then user check the value of the cell.......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
